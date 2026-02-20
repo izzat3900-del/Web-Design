@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Digital Learning Hub</title>
+
+  
+  <!-- Bootstrap 5.3.3 CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <!--Background Image Style -->
+  <style>
+    body{
+      background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+      url("easywallpaper.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+</style>
+ 
+  <!-- Header -->
+  <header class="bg-dark text-white py-3">
+    <div class="container">
+      <h1 class="h3 mb-0">Digital Learning Hub</h1>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light border-bottom">
+    <div class="container">
+      <a class="navbar-brand" href="https://google.com">DLH</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container py-4 flex-grow-1">
+    <h2 class="h4 mb-4 text-center">Responsive Columns</h2>
+
+<div id="topCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#topCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#topCarousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#topCarousel" data-bs-slide-to="2"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="1.jpg" class="d-block w-100" alt="Slide 1">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+        <h5>Mobile App Development</h5>
+        <p>Designing seamless user experiences for Android and iOS.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="2.jpg" class="d-block w-100" alt="Slide 2">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+        <h5>Internet of Things</h5>
+        <p>Connecting hardware to the cloud with real-time data.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="3.jpg" class="d-block w-100" alt="Slide 3">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+        <h5>Creative Multimedia</h5>
+        <p>Crafting high-quality digital content for the next generation.</p>
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#topCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#topCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  <div class="text-white p-5 rounded text-center mb-4" style="background-color: #5c4ce9;">
+      <h1>Welcome to Bootstrap</h1>
+      <p>Learn practical skills for real digital learning</p>
+      <button class="btn btn-outline-dark" style="background-color: rgb(23, 224, 231);" >Start Learning</button>
+   </div>
+
+</div>
+
+</div>
+
+    <div class="row g-3">
+      <section class="col-12 col-md-3">
+        <div class="p-4 rounded-3 h-100 text-dark" style="background-color: lavender;">
+          <h3 class="h5">Column One</h3>
+          <p class="mb-0">Full width on mobile, 1/4 on desktop.</p>
+        </div>
+      </section>
+
+      <section class="col-12 col-md-3">
+        <div class="p-4 rounded-3 h-100 text-dark" style="background-color: lavender;">
+          <h3 class="h5">Column Two</h3>
+          <p class="mb-0">Bootstrap responsive grid.</p>
+        </div>
+      </section>
+
+      <section class="col-12 col-md-4">
+        <div class="p-4 rounded-3 h-100 text-dark" style="background-color: lavender;">
+          <h3 class="h5">Column Three</h3>
+          <p class="mb-0">Stacks nicely on small screens.</p>
+        </div>
+      </section>
+
+   <section class="col-12 col-md-3">
+   <div class="p-4 rounded-3 h-100 text-dark" style="background-color: lavender;">
+      <h3 class="h5">Column Four</h3>
+      <p class="mb-0">Responsive and flexible.</p>
+   </div>
+</section>
+ 
+<div class="text-white p-5 rounded text-center mb-4" style="background-color: #b654fc;">
+      <h1>Welcome to your learning journey</h1>
+      <p>Learn practical skills for real digital learning</p>
+      <button class="btn btn-outline-dark" style="background-color: rgb(62, 255, 174);" >Start Learning</button>
+   </div>
+
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4 mt-auto">
+  <div class="container text-center">
+    <div class="mb-3">
+      <a href="https://www.facebook.com" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+      <a href="https://twitter.com" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+      <a href="https://instagram.com" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+      <a href="https://linkedin.com" class="text-white me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+      <a href="https://youtube.com" class="text-white"><i class="fab fa-youtube fa-lg"></i></a>
+    </div>
+    
+    <small class="text-secondary">&copy; 2026 Digital Learning Hub</small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html><!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Digital Learning Hub</title>
